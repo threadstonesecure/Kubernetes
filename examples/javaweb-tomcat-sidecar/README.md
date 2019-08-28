@@ -2,10 +2,6 @@
 
 The following document describes the deployment of a Java Web application using Tomcat. Instead of packaging `war` file inside the Tomcat image or mount the `war` as a volume, we use a sidecar container as `war` file provider.
 
-### Prerequisites
-
-https://github.com/kubernetes/kubernetes/blob/master/docs/user-guide/prereqs.md
-
 ### Overview
 
 This sidecar mode brings a new workflow for Java users:
